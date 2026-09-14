@@ -1,13 +1,13 @@
 module github.com/kubewarden/k8s-objects-generator
 
-go 1.25.0
+go 1.26.0
 
 toolchain go1.27.0
 
 require (
 	github.com/blang/semver/v4 v4.0.0
 	github.com/deckarep/golang-set/v2 v2.9.0
-	github.com/go-openapi/spec v0.22.11
+	github.com/go-openapi/spec v1.0.1
 	github.com/heimdalr/dag v1.5.1
 	github.com/iancoleman/strcase v0.3.0
 	github.com/pkg/errors v0.9.1
